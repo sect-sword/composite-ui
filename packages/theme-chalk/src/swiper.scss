@@ -1,0 +1,67 @@
+.pe-swiper-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  .pe-swiper-forward {
+    width: 32px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .pe-swiper-prefix {
+    margin-right: 8px;
+  }
+  .pe-swiper-suffix {
+    margin-left: 8px;
+  }
+  .bi-forward-fix {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0;
+  }
+  .bi-forward-fix.pe-swiper-prefix {
+    margin-right: unset;
+    left: 5px;
+    right: unset;
+  }
+  .bi-forward-fix.pe-swiper-suffix {
+    margin-left: unset;
+    right: 5px;
+    left: unset;
+  }
+
+  .bi-forward-fix.bi-forward-show {
+    z-index: 10;
+    opacity: 1;
+  }
+  .pe-swiper-content {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+  }
+  .pe-swiper-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: palevioletred;
+    transition: all 0.2s linear;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 8px;
+    z-index: 2;
+    .pe-swiper-box {
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

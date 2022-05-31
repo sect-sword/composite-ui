@@ -1,0 +1,35 @@
+.tooltip-modal {
+  width: 100%;
+  padding: 8px 10px;
+}
+.tooltip-modal-content {
+  margin: 15px 0;
+}
+.tooltip-modal-content:first-child {
+  margin-top: 0;
+}
+.tooltip-modal-content:last-child {
+  margin-bottom: 0;
+}
+.tooltip-modal-title {
+  height: 16px;
+  line-height: 16px;
+  font-weight: bolder;
+}
+.modal_content_tips {
+  list-style: none;
+  font-family: "PingFangSC-Medium";
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  margin-top: 15px;
+  font-weight: normal;
+}
+.modal_content_tips li {
+  list-style: none;
+  font-family: "PingFangSC-Medium";
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 400;
+}

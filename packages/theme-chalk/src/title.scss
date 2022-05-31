@@ -1,0 +1,29 @@
+
+.pe-title {
+  font-size: 16px;
+  font-weight: bold;
+  .pe-title_text {
+    float: left;
+    height: 100%;
+  }
+  .left-line {
+    float: left;
+    border-left: 6px solid #bd1a2d;
+    width: 26px;
+    height: 26px;
+  }
+}
+.pe-title_icons {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 19px;
+  width: auto;
+  max-width: 200px;
+  span {
+    margin-left: 10px;
+  }
+}
+.pe-title_btns {
+  float: right;
+}

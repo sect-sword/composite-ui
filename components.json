@@ -1,0 +1,9 @@
+{
+  "breadcrumb": "./packages/breadcrumb/index.js",
+  "card": "./packages/card/index.js",
+  "item": "./packages/item/index.js",
+  "swiper": "./packages/swiper/index.js",
+  "switch": "./packages/switch/index.js",
+  "title": "./packages/title/index.js",
+  "tooltip": "./packages/tooltip/index.js"
+}

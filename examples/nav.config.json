@@ -1,0 +1,130 @@
+{
+  "zh-CN": [
+    {
+      "name": "更新日志",
+      "path": "/changelog"
+    },
+    {
+      "name": "开发指南",
+      "children": [
+        {
+          "path": "/installation",
+          "name": "安装"
+        },
+        {
+          "path": "/quickstart",
+          "name": "快速上手"
+        },
+        {
+          "path": "/i18n",
+          "name": "国际化"
+        },
+        {
+          "path": "/custom-theme",
+          "name": "自定义主题"
+        },
+        {
+          "path": "/transition",
+          "name": "内置过渡动画"
+        }
+      ]
+    },
+    {
+      "name": "组件",
+      "groups": [
+        {
+          "path": "/breadcrumb",
+          "title": "Breadcrumb 面包屑"
+        },
+        {
+          "path": "/card",
+          "title": "Card 卡片"
+        },
+        {
+          "path": "/item",
+          "title": "Item Form-Item"
+        },
+        {
+          "path": "/swiper",
+          "title": "Swiper 轮播"
+        },
+        {
+          "path": "/switch",
+          "title": "Switch 开关"
+        },
+        {
+          "path": "/title",
+          "title": "Title 标题"
+        },
+        {
+          "path": "/tooltip",
+          "title": "Tooltip 文字提示"
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "name": "Changelog",
+      "path": "/changelog"
+    },
+    {
+      "name": "Development",
+      "children": [
+        {
+          "path": "/installation",
+          "name": "Installation"
+        },
+        {
+          "path": "/quickstart",
+          "name": "Quick Start"
+        },
+        {
+          "path": "/i18n",
+          "name": "Internationalization"
+        },
+        {
+          "path": "/custom-theme",
+          "name": "Custom Theme"
+        },
+        {
+          "path": "/transition",
+          "name": "Built-in transition"
+        }
+      ]
+    },
+    {
+      "name": "Components",
+      "groups": [
+        {
+          "path": "/breadcrumb",
+          "title": "Breadcrumb"
+        },
+        {
+          "path": "/card",
+          "title": "Card"
+        },
+        {
+          "path": "/item",
+          "title": "Item"
+        },
+        {
+          "path": "/swiper",
+          "title": "Swiper"
+        },
+        {
+          "path": "/switch",
+          "title": "Switch"
+        },
+        {
+          "path": "/title",
+          "title": "Title"
+        },
+        {
+          "path": "/tooltip",
+          "title": "Tooltip"
+        }
+      ]
+    }
+  ]
+}

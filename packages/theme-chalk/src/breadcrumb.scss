@@ -1,0 +1,25 @@
+.pe-breadcrumb {
+  padding: 16px 0;
+  background: #f9f9f9;
+  -webkit-user-select: none;
+  user-select: none;
+  color: #666;
+  font-size: 16px;
+  font-family: SourceHanSansCN;
+  .pe-breadcrumb_before,
+  .pe-breadcrumb_item {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .pe-breadcrumb_separator {
+    margin: 0 5px;
+  }
+  .pe-breadcrumb_inner {
+    cursor: pointer;
+    &:hover {
+      color: #2062c6;
+    }
+  }
+}
